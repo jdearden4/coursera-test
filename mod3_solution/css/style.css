@@ -1,0 +1,99 @@
+
+/* mobile - default 
+xs-based classes*/
+
+/* desktop 
+md-based classes*/
+
+/* tablet 
+sm-based classes*/
+
+* {
+	box-sizing: border-box; 
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+ p {
+	padding: 40px 20px 60px 25px;
+	font-weight: 400;
+}
+
+a {
+	padding: 60px 20px 60px 25px;
+	color: white;
+}
+
+a:hover {
+	color: #DB664F;
+}
+
+h3 {
+	color: #8F8564;
+	padding-top: 20px;
+	font-size: 3rem;
+}
+
+.navbar.navbar-light {
+	background-color: #DB664F;
+	border-radius: 0;
+}
+
+.navbar-toggle {
+	background: #8F4D40;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+a.navbar-brand:hover {
+	color: #8F4D40;
+}
+
+.icon-bar{
+	background: white;
+}
+
+#active-text {
+	background: #8F4D40;
+	opacity: .8;
+	color: white;
+}
+
+.jumbotron {
+	background-color: #F2F2F2;
+}
+
+#menu {
+	font-weight: 800;
+	color: #E3B719;
+}
+
+.container-fluid {
+	margin: 0 15px 0 15px;
+}
+
+.essential {
+	width: 95%;
+	background-color: #F2F2F2;
+	height: 800px;
+	position: relative;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #8F4D40;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 35px;
+}
+
+#link {
+	position: absolute;
+	top: 700px;
+	color: #DB664F;
+}
+
